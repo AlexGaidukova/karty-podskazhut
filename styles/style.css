@@ -159,12 +159,11 @@ a:hover {
 
 .content__list {
   list-style: none;
-  padding-inline-start: 0 0 0 40px;
+  padding-inline-start: 0 0 0 20px;
 }
 
 .content__list li {
   position: relative;
-  padding-inline-start: 25px;
 }
 
 .content__list li:not(:last-of-type) {
@@ -176,8 +175,8 @@ a:hover {
   position: absolute;
   inline-size: 15px;
   block-size: 15px;
-  inset-inline-start: 0;
-  inset-block-start: 2px;
+  inset-block-start: 5px;
+  inset-inline-start: -25px;
   background: url('../images/marker-light.svg') no-repeat center;
 }
 
